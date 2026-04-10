@@ -20,36 +20,36 @@ const OFFERINGS = [
   {
     title: "Fresh Produce",
     desc: "Yams, plantain, cassava, bitter leaf, ugu, and seasonal West African vegetables.",
-    img: "/store/produce.png",
+    img: "/store/produce.webp",
     alt: "Fresh produce including plantain, yam, and pineapple",
   },
   {
     title: "Pantry Staples",
     desc: "Rice, beans, gari, semovita, fufu mixes, Golden Morn, and imported canned goods.",
-    img: "/store/fufu.png",
+    img: "/store/fufu.webp",
     alt: "Pantry staples including fufu mix and flour",
   },
   {
     title: "Canned & Dried Goods",
     desc: "Titus sardines, Gala, stockfish, crayfish, tomato paste, and specialty preserves.",
-    img: "/store/canned.png",
+    img: "/store/canned.webp",
     alt: "Canned goods and dried fish aisle",
   },
   {
     title: "Grains & Legumes",
     desc: "Brown and white beans, black-eyed peas, moin-moin mix, and assorted whole grains.",
-    img: "/store/beans.png",
+    img: "/store/beans.webp",
     alt: "Beans and grains shelf",
   },
 ];
 
 /* ─── Gallery images ─────────────────────────────────────────── */
 const GALLERY = [
-  { src: "/store/shelves.png", alt: "K&G Market shelves" },
-  { src: "/store/tea-pantry.png", alt: "Tea and condiments aisle" },
-  { src: "/store/canned.png", alt: "Canned goods aisle" },
-  { src: "/store/frozen.png", alt: "Frozen foods section" },
-  { src: "/store/beans.png", alt: "Grains and beans section" },
+  { src: "/store/shelves.webp", alt: "K&G Market shelves" },
+  { src: "/store/tea-pantry.webp", alt: "Tea and condiments aisle" },
+  { src: "/store/canned.webp", alt: "Canned goods aisle" },
+  { src: "/store/frozen.webp", alt: "Frozen foods section" },
+  { src: "/store/beans.webp", alt: "Grains and beans section" },
 ];
 
 /* ─── Scroll animation hook ─────────────────────────────────── */
@@ -132,7 +132,7 @@ export default function Home() {
         <Image
           ref={heroBgRef as React.Ref<HTMLImageElement>}
           className="hero__bg"
-          src="/store/hero.png"
+          src="/store/hero.webp"
           alt="K&G African and Caribbean Market store interior"
           fill
           priority
@@ -198,7 +198,7 @@ export default function Home() {
             <div className="about__images fade-up">
               <Image
                 className="about__img-main"
-                src="/store/produce.png"
+                src="/store/produce.webp"
                 alt="Fresh produce at K&G Market — plantain, yam, pineapple and more"
                 width={680}
                 height={520}
@@ -206,7 +206,7 @@ export default function Home() {
               />
               <Image
                 className="about__img-accent"
-                src="/store/shelves.png"
+                src="/store/shelves.webp"
                 alt="Fully stocked shelves at K&G Market"
                 width={400}
                 height={340}

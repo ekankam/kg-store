@@ -11,8 +11,8 @@
   --c-muted:    #7a6352;
   --c-white:    #ffffff;
 
-  --ff-display: "Cormorant Garamond", Georgia, serif;
-  --ff-body:    "DM Sans", system-ui, sans-serif;
+  --ff-display: var(--font-display), Georgia, serif;
+  --ff-body:    var(--font-body), system-ui, sans-serif;
 
   --r-sm:  6px;
   --r-md:  12px;
@@ -53,8 +53,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .section-label {
   display: inline-block;
   font-family: var(--ff-body);
-  font-size: 11px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 600;
   letter-spacing: .18em;
   text-transform: uppercase;
   color: var(--c-amber);
@@ -112,7 +112,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   font-size: 13px;
   font-weight: 500;
   letter-spacing: .06em;
-  color: rgba(253,246,236,.75);
+  color: rgba(253,246,236,.92);
   transition: color var(--transition);
 }
 .nav__links a:hover { color: var(--c-gold); }
@@ -155,9 +155,9 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   inset: 0;
   background: linear-gradient(
     160deg,
-    rgba(26,18,9,.15) 0%,
-    rgba(26,18,9,.55) 50%,
-    rgba(26,18,9,.92) 100%
+    rgba(26,18,9,.35) 0%,
+    rgba(26,18,9,.70) 50%,
+    rgba(26,18,9,.96) 100%
   );
 }
 .hero__content {
@@ -200,7 +200,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .hero__sub {
   font-size: clamp(15px, 2vw, 18px);
-  color: rgba(253,246,236,.72);
+  color: rgba(253,246,236,.92);
   max-width: 44ch;
   margin-bottom: 48px;
   font-weight: 300;
@@ -271,7 +271,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   font-size: 12px;
   letter-spacing: .1em;
   text-transform: uppercase;
-  color: rgba(253,246,236,.5);
+  color: rgba(253,246,236,.78);
 }
 
 /* ─── TICKER ─────────────────────────────────────────────────── */
@@ -470,7 +470,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .offerings__sub {
   font-size: 16px;
   font-weight: 300;
-  color: rgba(253,246,236,.6);
+  color: rgba(253,246,236,.84);
   line-height: 1.7;
 }
 .offerings__grid {
@@ -528,8 +528,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .offering-card__desc {
   font-size: 13px;
-  font-weight: 300;
-  color: rgba(253,246,236,.7);
+  font-weight: 400;
+  color: rgba(253,246,236,.88);
   line-height: 1.55;
 }
 
@@ -563,8 +563,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   margin-bottom: 36px;
 }
 .info-block__label {
-  font-size: 11px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 600;
   letter-spacing: .18em;
   text-transform: uppercase;
   color: var(--c-amber);
@@ -684,7 +684,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .footer {
   background: var(--c-soil);
   padding: 64px 0 32px;
-  color: rgba(253,246,236,.6);
+  color: rgba(253,246,236,.80);
 }
 .footer__grid {
   display: grid;
@@ -714,7 +714,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   max-width: 32ch;
 }
 .footer__col-title {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: .18em;
   text-transform: uppercase;
@@ -733,8 +733,9 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: .04em;
+  color: rgba(253,246,236,.78);
 }
 .footer__bottom a { transition: color var(--transition); }
 .footer__bottom a:hover { color: var(--c-cream); }
