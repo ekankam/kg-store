@@ -755,10 +755,30 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 @media (max-width: 1024px) {
   .offerings__grid { grid-template-columns: repeat(2, 1fr); }
   .about__grid { gap: 48px; }
+  .hero__content {
+    padding: 152px 8px 76px;
+  }
+  .hero__headline {
+    font-size: clamp(56px, 9.5vw, 82px);
+    max-width: 12.5ch;
+  }
+  .hero__sub {
+    max-width: 40ch;
+  }
 }
 
 @media (max-width: 768px) {
   .nav__links { display: none; }
+  .hero__content {
+    padding: 148px 8px 72px;
+  }
+  .hero__headline {
+    font-size: clamp(48px, 11.5vw, 68px);
+    max-width: 12ch;
+  }
+  .hero__sub {
+    max-width: 36ch;
+  }
   .about__grid { grid-template-columns: 1fr; }
   .about__images { height: 400px; order: -1; }
   .visit__grid { grid-template-columns: 1fr; gap: 40px; }
@@ -775,5 +795,16 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   .offerings__grid { grid-template-columns: 1fr; }
   .offering-card { aspect-ratio: 4/3; }
   .hero__actions { flex-direction: column; align-items: flex-start; }
+  .hero__content {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .hero__headline {
+    font-size: clamp(44px, 13vw, 58px);
+    max-width: 11ch;
+  }
+  .hero__sub {
+    max-width: 32ch;
+  }
   .about__images { height: 340px; }
 }
