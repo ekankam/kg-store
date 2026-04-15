@@ -65,6 +65,13 @@ export const metadata: Metadata = {
     description:
       "Family-owned African and Caribbean grocery store in Murfreesboro, TN. Authentic foods, spices, and specialty imports. Open Mon–Sat 8:30 AM–8 PM, Sun 3–7 PM.",
     locale: "en_US",
+    // hero.webp exists at /public/store/hero.webp
+    images: [
+      {
+        url: "/store/hero.webp",
+        alt: "K&G African and Caribbean Market — Murfreesboro, TN",
+      },
+    ],
   },
 
   twitter: {
@@ -72,6 +79,8 @@ export const metadata: Metadata = {
     title: "K&G African and Caribbean Market | Murfreesboro, TN",
     description:
       "Authentic African and Caribbean groceries in Murfreesboro, TN. Serving Nashville, Smyrna, and surrounding areas. Open 7 days a week.",
+    // hero.webp exists at /public/store/hero.webp
+    images: ["/store/hero.webp"],
   },
 };
 

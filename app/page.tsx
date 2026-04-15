@@ -247,7 +247,9 @@ export default function Home() {
                 visit to K&amp;G is an experience rooted in warmth and
                 belonging. Whether you&apos;re searching for a specific
                 ingredient from home or discovering something new, you&apos;ll
-                always feel welcome here.
+                always feel welcome here. Customers drive to us from across
+                Rutherford County and Middle Tennessee — including Nashville,
+                Smyrna, La Vergne, and beyond.
               </p>
 
               <div className="about__values fade-up">
@@ -328,9 +330,11 @@ export default function Home() {
                 Find Us in Murfreesboro
               </h2>
               <p className="visit__intro fade-up">
-                We&apos;re conveniently located on Old Fort Parkway. Come in,
-                explore the aisles, and let our team help you find exactly what
-                you&apos;re looking for.
+                We&apos;re conveniently located on Old Fort Parkway in
+                Murfreesboro — easy to reach from Nashville, Smyrna, La
+                Vergne, and the rest of Middle Tennessee. Come in, explore the
+                aisles, and let our team help you find exactly what you&apos;re
+                looking for.
               </p>
 
               {/* Address */}
